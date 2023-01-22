@@ -1,0 +1,96 @@
+// .signUp-container{
+//     color: black;
+// }
+
+.containerSignUpForm{
+    width: 100%;
+    height: 96vh;
+    background-image: url(../images/BackgroundSignUp.jpg);
+    background-size: cover;
+}
+
+// .containerSignUpListItem{
+//     ul{
+//         padding: 10px 15px;
+//         display: flex;
+//         color: white;
+//     }
+// }
+
+.containerSignUpList{
+    ul{
+        padding: 10px 15px;
+        display: flex;
+        color: white;
+        li{
+            list-style: none;
+        }
+        li:nth-child(1){
+            margin-left: 150px;
+        }
+        li:nth-child(2){
+            margin-left: 150px;
+        }
+        li:nth-child(3){
+            margin-left: 150px;
+        }
+        li:nth-child(4){
+            margin-left: 150px;
+        }
+        li:nth-child(5){
+            margin-left: 150px;
+        }
+    }
+
+    th {
+        color: white;
+        margin-left: 50px;
+        
+
+        td:nth-child(1){
+           padding-left: 150px; 
+        }
+        td:nth-child(2){
+            padding-left: 150px; 
+        }
+        td:nth-child(3){
+            padding-left: 150px; 
+        }
+        td:nth-child(4){
+            padding-left: 150px; 
+        }
+        td:nth-child(5){
+            padding-left: 150px; 
+        }
+    }
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: aqua;
+        margin-top: 10px;
+        font-size: 24px;
+        border: none;
+    }
+    button{
+        width: 300px;
+        height: 50px;
+        background-color: lightgreen;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: none;
+        transition: .5s ease;
+        font-family: sans-serif;
+    }
+    button:hover{
+        background-color: rgb(36, 233, 36);
+        font-family: sans-serif;
+        transition: .5s ease;
+    }
+}
