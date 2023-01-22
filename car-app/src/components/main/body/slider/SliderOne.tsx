@@ -1,0 +1,24 @@
+import { url } from "inspector";
+import { Component } from "react";
+import SwiftSlider from 'react-swift-slider';
+
+
+const Slider = () => {
+    const data =  [
+        {'id':'1','src':'https://media.mfbproject.co.za/repos/2017_alfa-romeo_stelvio_leaked_02.jpg'},
+        {'id':'2','src':'https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg'},
+        {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
+        {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
+        {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'},
+        // {'id':'6','src':'https://cdn2.riastatic.com/photosnew/auto/photo/land-rover_range-rover-sport__477025512f.webp'},
+    
+      ];
+
+    return (
+        <div className="sliderImg">
+        <SwiftSlider data={data} height={203} enableNextAndPrev={false} showDots={false} interval={2000}/>
+        </div>
+      );
+    }
+
+export default Slider; 
